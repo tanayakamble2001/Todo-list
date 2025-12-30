@@ -48,18 +48,23 @@ Todo-list/
 git clone https://github.com/tanayakamble2001/Todo-list.git
 cd Todo-list
 
-2️⃣ Create a virtual environment
+### 2️⃣ Create a virtual environment
+```bash
 python -m venv venv
 Activate it:
 
-Windows
+### Windows
+```bash
 venv\Scripts\activate
 
-Linux / macOS
+### Linux / macOS
+```bash
 source venv/bin/activate
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
 
-4️⃣ Apply migrations
+### 4️⃣ Apply migrations
+```bash
 python manage.py migrate
